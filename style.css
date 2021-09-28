@@ -136,6 +136,13 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
+    background-color: #fcc741;border-radius: 27px;
+    padding: .3rem;
+    color: rgb(208, 88, 255);
+    position: fixed;
+    height: 2rem;
+    border: 2px solid white;
+    
 }
 
 
