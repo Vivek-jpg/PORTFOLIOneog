@@ -14,6 +14,7 @@ html{
 body {
     font-family: 'Roboto Mono', monospace;
     margin: auto;
+    background-color: #ffffff;
 
 }
 
@@ -86,6 +87,7 @@ hr {
     /* display: block; */
     padding: 0.5rem 1rem;
     background-color: white;
+    border-radius: 10rem;
     
 
     transition: 1s;
@@ -130,19 +132,23 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 0rem;
-    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
     background-color: #fcc741;border-radius: 27px;
-    padding: .3rem;
+    padding: .5rem;
     color: rgb(208, 88, 255);
     position: fixed;
     height: 2rem;
-    border: 2px solid white;
     
+    
+}
+.navigation .nav-brand:hover{
+    background-color: #fcd36d;
+    color: #ffffff;
 }
 
 
@@ -207,18 +213,32 @@ hr {
 .section {
     padding: 1rem;
     transition: 1.5s;
+    border-radius: 15px;
+    border: #8d2cfc solid 2px;
+    
 }
 
 .section:hover{
-    transition: 1.5s;
-    background-color: rgb(0, 0, 0);
+    
+    background:linear-gradient(#9541E5,#5B0BE0,#6915E1) ;
     color: white;
-    padding: 2rem;
+    padding: 6rem;
+    transition-delay: .5sec;
+    margin: 2.5rem;
+    padding: 3rem;
+    text-transform: capitalize;
+    text-shadow: #747474;
+    
 }
 
 .section h1 {
     text-align: center;
     padding: 1rem;
+    color: #FBBF24;
+    
+}
+.section h1:hover{
+    text-transform: uppercase;
 }
 
 .ow {
@@ -237,7 +257,7 @@ hr {
 /* navigation*/
 
 footer{
-    background-color: #7934d3;
+    background: linear-gradient(#7934d3,#7933E5,#590AE0) ;
     margin: auto;
     
 }
